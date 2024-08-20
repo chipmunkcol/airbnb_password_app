@@ -45,9 +45,8 @@ function createBtnToUploadDB() {
 
 function createPassword() {
   const today = formatKoreanDate();
-  const firstNumber = Number(today) * MAJIC_NUMBER;
-  const secondNumber = firstNumber * firstNumber;
-  const password = getLastSixDigits(secondNumber);
+  const _password = Number(today) * MAJIC_NUMBER * MAJIC_NUMBER; // MAJIC_NUMBER: 1031
+  const password = getLastSixDigits(_password);
   return password;
 }
 
