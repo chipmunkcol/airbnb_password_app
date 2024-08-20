@@ -25,16 +25,6 @@ import {
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const firebaseConfig = {
-//   apiKey: "AIzaSyCJ44AJ4oaAOJQi6f_9_ZyCPBPPM_njUoI",
-//   authDomain: "airbnb-password.firebaseapp.com",
-//   databaseURL: "https://airbnb-password-default-rtdb.firebaseio.com",
-//   projectId: "airbnb-password",
-//   storageBucket: "airbnb-password.appspot.com",
-//   messagingSenderId: "747996378908",
-//   appId: "1:747996378908:web:43d021aba94baaf67aacd9",
-//   measurementId: "G-L3XFZJ7J0D",
-// };
 
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_API_KEY,
